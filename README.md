@@ -144,6 +144,11 @@ Edit `.rune/conventions.md` to add coding rules:
 
 Both files are included in the generated `RUNE.md`.
 
+> [!NOTE]
+> **Ownership & LLM Updates**
+> - **Human-authored:** These files are intended to be human-authored guardrails. Rune is local-first and offline; it will never automatically overwrite or modify these files during `rune update` or `rune index`.
+> - **Agent updates:** AI coding agents should avoid modifying these files unless you explicitly instruct them to document a new architectural decision or project convention.
+
 ---
 
 ## Supported Languages
