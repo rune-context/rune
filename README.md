@@ -181,6 +181,16 @@ Go · Python · JavaScript · TypeScript · Rust · Java · Kotlin · Ruby · PH
 
 ---
 
+## Support
+
+Rune Ctx is, and always will be, completely free and open-source.
+If you find it useful and want to support its continued development, you can buy me a coffee!
+
+[![Donate via PayPal](https://img.shields.io/badge/DONATE-PAYPAL-00457c?logo=paypal)](https://paypal.me/wawanbsetyawan)
+
+---
+
 ## License
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
