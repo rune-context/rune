@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "rune": {
+      "command": "rune",
+      "args": ["serve"],
+      "env": {}
+    }
+  }
+}

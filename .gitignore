@@ -1,0 +1,17 @@
+# Binary
+rune
+rune.exe
+
+# Build artifacts
+release/
+
+# Rune data (generated per-repo)
+.rune/
+RUNE.md
+
+# Go
+*.test
+*.out
+
+SPEC.md
+INSTALL.md
