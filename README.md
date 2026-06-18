@@ -1,6 +1,6 @@
 ```text
 ╭──────────────────────────────────────────────────────────────╮
-│ * Welcome to the Rune research preview!                      │
+│ * Welcome to the Rune context index !                      │
 ╰──────────────────────────────────────────────────────────────╯
 
 ╔══════════╗    ╔══╗    ╔══╗    ╔══╗        ╔══╗    ╔══════════╗
@@ -13,15 +13,7 @@
 ║██║    ║██║    ║██╚════╝██║    ║██║  ║████║║██║    ║██║        
 ║██║    ║██║    ║██████████║    ║██║  ╚════╝║██║    ║██████████║
 ╚══╝    ╚══╝    ╚══════════╝    ╚══╝        ╚══╝    ╚══════════╝
-
-🎉 Indexing successful. Understanding stored.
 ```
-
-# Rune
-
-<p align="center">
-  <img src="runes.jpg" alt="Rune Logo" width="600">
-</p>
 
 **Repository Context Protocol**
 
@@ -31,7 +23,7 @@ Rune scans your repository and generates **`RUNE.md`** — a single skill file t
 
 Works with **Antigravity · Claude · Cursor · Codex · Windsurf · Copilot** and any agent that reads project files.
 
----
+<br/>
 
 ## Install
 
@@ -55,7 +47,7 @@ cd rune
 make install
 ```
 
----
+<br/>
 
 ## Quick Start
 
@@ -67,7 +59,7 @@ rune index      # Scan and generate RUNE.md
 
 That's it. Your AI agents will now read `RUNE.md` automatically.
 
----
+<br/>
 
 ## What RUNE.md Contains
 
@@ -108,7 +100,7 @@ Structure:
 - `New`
 ```
 
----
+<br/>
 
 ## Commands
 
@@ -121,7 +113,7 @@ Structure:
 | `rune doctor` | Check repository health |
 | `rune serve` | Start MCP server (optional, stdio) |
 
----
+<br/>
 
 ## How Agents Use It
 
@@ -138,7 +130,7 @@ AI coding agents automatically discover and read project files like `RUNE.md`. N
 
 For agents that support MCP, you can optionally run `rune serve` for richer tool-based access.
 
----
+<br/>
 
 ## Customize
 
@@ -172,7 +164,7 @@ Both files are included in the generated `RUNE.md`.
 > - **Human-authored:** These files are intended to be human-authored guardrails. Rune is local-first and offline; it will never automatically overwrite or modify these files during `rune update` or `rune index`.
 > - **Agent updates:** AI coding agents should avoid modifying these files unless you explicitly instruct them to document a new architectural decision or project convention.
 
----
+<br/>
 
 ## Supported Languages
 
@@ -180,7 +172,7 @@ Rune extracts imports, exports, and dependencies from:
 
 Go · Python · JavaScript · TypeScript · Rust · Java · Kotlin · Ruby · PHP · C/C++ · C# · Swift · Dart · Lua · Scala · Elixir · Erlang · Zig · Vue · Svelte
 
----
+<br/>
 
 ## Performance
 
@@ -191,7 +183,7 @@ Go · Python · JavaScript · TypeScript · Rust · Java · Kotlin · Ruby · PH
 | Startup | < 100ms |
 | Memory | < 200MB |
 
----
+<br/>
 
 ## Design
 
@@ -202,7 +194,7 @@ Go · Python · JavaScript · TypeScript · Rust · Java · Kotlin · Ruby · PH
 - **Incremental** — only re-scans changed files
 - **Human-readable** — `RUNE.md` is plain markdown
 
----
+<br/>
 
 ## Support
 
@@ -211,9 +203,12 @@ If you find it useful and want to support its continued development, you can buy
 
 [![Donate via PayPal](https://img.shields.io/badge/DONATE-PAYPAL-00457c?logo=paypal)](https://paypal.me/wawanbsetyawan)
 
----
+<br/>
 
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+<p align="center">
+  <img src="runes.jpg" alt="Rune Logo" width="600">
+</p>
